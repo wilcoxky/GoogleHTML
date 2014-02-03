@@ -1,28 +1,26 @@
 == README
+HW#2
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Link to Heroku: http://lit-journey-2092.herokuapp.com/
 
-Things you may want to cover:
+Issues Encountered: Could not get spacing right for the footer and content. After playing around with the margin I
+was able to find a height that fit for the content region using margin-top: 7%;.
+For the nav-bar I was not able to get the icons until they were posted to the website. 
+When I was adding in the google home logo, the original picture did not fit the dimensions I had, so in order to fix it
+I changed Background-size and centered the image. The final problem encountered was trying to mimick the "google search"
+and "I'm feeling lucky" buttons. I originally had them as input with type "submit" but when using google's code to 
+try and get the design, it would not get rid of the original submit button interface. I fixed this by jsut changing 
+the buttons to links instead and using the style google gave to edit those. 
 
-* Ruby version
+Idea 1: Creating an all in one place to post your sublets for your university/city. The current problem is that there is 
+no one place to go to check sublets that relate to college students specifically. Similar to Pennlets but on a nation-wide
+scale. Ideally making it easy to find a sublet for college students.
 
-* System dependencies
+Idea 2: I like to workout a lot and there are tons of places to go on the web to find what you want to do. This site would
+be a place to go to view and share workouts with your friends or even follow people who's workouts you enjoy. Thus,
+you could search for routines or maybe follow ones which you think give good advice.
 
-* Configuration
+Idea 3: Similar to the one above but diet based. There are plenty of sites that give recipes and allow you to share them,
+but they never really connect the user to it or track what theyve made. The goal of this site would be to have a collection
+of recipes and dishes per user that could 
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
